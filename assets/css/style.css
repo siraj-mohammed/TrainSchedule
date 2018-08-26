@@ -1,0 +1,56 @@
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: darkblue;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, 'Segoe UI', sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    padding: 10px;
+    background: -webkit-linear-gradient(left,aliceblue 18%, darkblue 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, aliceblue 18%, darkblue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-bottom: 8px solid darkblue;
+}
+
+h2{
+    display: inline-block;
+    font-family: Impact;
+}
+
+img {
+    height: 40px;
+    vertical-align: text-bottom;
+    margin-right: 4px;
+}
+
+#current-time{
+    float:right;
+    color: cyan;
+    margin: 15px;
+    font-size:16px;
+}
+
+.card{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+thead{
+    font-weight: bold;
+}
+
+th, td{
+    text-align: center;
+}
+
+.required{
+    color:red;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+
